@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training / generated logs
+logs/
+runs/
+*.tfevents.*
+
+# Large / temporary checkpoints
+models/*checkpoints*/
+models/*_steps.zip
+
+# Local scratch
+scratch/
+tmp/
+*.bak
+*_backup.py
+
+# Re-generated legacy plots (public repo keeps plots/phase6 only)
+plots/*
+!plots/phase6/
+!plots/phase6/**

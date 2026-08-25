@@ -1,0 +1,16 @@
+alpha,Region,Metric,Nominal Residual PPO,Robust Residual PPO,Change,Change unit
+0.0,Nominal,Success (%),100.0,100.0,0.0,percentage points
+0.0,Nominal,Steady RMSE (m),0.0172676669284068,0.0087595658702442,-49.27186222341387,%
+0.0,Nominal,Capture time (s),3.884,4.136,6.488156539649852,%
+0.0,Nominal,Forward overshoot (m),0.0053199243545532,0.0012850487232208,-75.84460534441703,%
+0.0,Nominal,Command smoothness,3.602985198257507e-05,1.7774418027163547e-05,-50.6675241525841,%
+0.75,Training boundary,Success (%),100.0,100.0,0.0,percentage points
+0.75,Training boundary,Steady RMSE (m),0.0088524274574419,0.0033500437700334,-62.156778057332225,%
+0.75,Training boundary,Capture time (s),3.6915,3.606,-2.316131653799272,%
+0.75,Training boundary,Forward overshoot (m),0.0267925384640693,0.0060861584544181,-77.28412907727997,%
+0.75,Training boundary,Command smoothness,0.0001328850722547,0.0001326234207787,-0.19690057849274595,%
+1.0,Held-out severity,Success (%),57.99999999999999,95.0,37.00000000000001,percentage points
+1.0,Held-out severity,Steady RMSE (m),0.0650191371763809,0.037941218035095,-41.646075782011955,%
+1.0,Held-out severity,Capture time (s),7.753000000000001,6.092000000000001,-21.42396491680639,%
+1.0,Held-out severity,Forward overshoot (m),0.1871842870116233,0.1229270845651626,-34.3283100693546,%
+1.0,Held-out severity,Command smoothness,0.0003161919917786,0.0003243491707745,2.579818340754088,%

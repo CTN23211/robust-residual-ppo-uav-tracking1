@@ -1,0 +1,9 @@
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & Success (%) & Full RMSE (m) & Steady RMSE (m) & Capture time (s) & Stable ratio (%) & Forward overshoot (m) & Command smoothness \\
+\midrule
+PD+FF & 100 & 0.433 & 0.05578 & 5.569 & 72.15 & 0 & 1.024e-05 \\
+Direct PPO & 100 & 0.3845 & 0.00633 & 3.179 & 84.11 & 0.007489 & 0.002325 \\
+Residual PPO & 100 & 0.4043 & 0.01727 & 3.884 & 80.58 & 0.00532 & 3.603e-05 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,14 @@
+\begin{tabular}{lllrrrrrr}
+\toprule
+Condition & Severity & Primary error metric & PD+FF success (%) & PD+FF error (m) & Direct PPO success (%) & Direct PPO error (m) & Residual PPO success (%) & Residual PPO error (m) \\
+\midrule
+Velocity fault & alpha=1.0 & steady RMSE & 2 & 0.1379 & -- & -- & 58 & 0.06502 \\
+Position noise & sigma_p=0.10 m & steady RMSE & 100 & 0.05776 & 86 & 0.02892 & 100 & 0.02691 \\
+Velocity noise & sigma_v=0.10 m/s & steady RMSE & 100 & 0.06603 & 79 & 0.03455 & 99 & 0.03907 \\
+Observation delay & 400 ms & steady RMSE & 100 & 0.03168 & 0 & 0.1221 & 100 & 0.00887 \\
+Vision loss & 1.0 s & steady RMSE & 100 & 0.04666 & 100 & 0.01985 & 100 & 0.01132 \\
+Speed step & +0.20 m/s at t=6 s & post-maneuver RMSE & 100 & 0.04893 & 100 & 0.01087 & 100 & 0.01832 \\
+Lateral sine & A=0.40 m, T=8 s & post-maneuver RMSE & 100 & 0.05923 & 100 & 0.1031 & 100 & 0.04306 \\
+Constant turn & omega=0.25 rad/s & post-maneuver RMSE & 100 & 0.05129 & 53 & 0.1509 & 100 & 0.02435 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,23 @@
+[PASS] velocity_compensation_fault_summary.csv: 10 rows (expected 10)
+[PASS] observation_noise_summary.csv: 30 rows (expected 30)
+[PASS] observation_delay_summary.csv: 15 rows (expected 15)
+[PASS] temporary_vision_loss_summary.csv: 15 rows (expected 15)
+[PASS] unseen_trajectory_summary.csv: 12 rows (expected 12)
+[PASS] robust_residual_alpha_sweep_summary.csv: 10 rows (expected 10)
+[PASS] cross_robustness_summary.csv: 16 rows (expected 16)
+[PASS] cross_robustness_paired_comparison.csv: 8 rows (expected 8)
+[PASS] velocity_compensation_fault_raw.csv: 1000 rows (expected 1000)
+[PASS] observation_noise_raw.csv: 3000 rows (expected 3000)
+[PASS] observation_delay_raw.csv: 1500 rows (expected 1500)
+[PASS] temporary_vision_loss_raw.csv: 1500 rows (expected 1500)
+[PASS] unseen_trajectory_raw.csv: 1200 rows (expected 1200)
+[PASS] robust_residual_alpha_sweep_raw.csv: 1000 rows (expected 1000)
+[PASS] cross_robustness_raw.csv: 1600 rows (expected 1600)
+[PASS] Nominal RMSE consistency for PD+FF: spread=1.344e-09
+[PASS] Nominal RMSE consistency for Direct PPO: spread=8.224e-10
+[PASS] Nominal RMSE consistency for Residual PPO: spread=1.142e-09
+[PASS] Robust-training held-out contract: alpha=1.0 only.
+[PASS] Canonical master table built with 108 rows.
+[NOTE] Direct PPO is intentionally N/A for controller-path velocity-fault tests.
+[NOTE] Vision-loss results are last-valid-target hold with a constant-velocity target and a t=3 s dropout anchor.
+[NOTE] Do not claim delay is intrinsically beneficial when steady RMSE decreases; this is configuration-specific closed-loop behavior.

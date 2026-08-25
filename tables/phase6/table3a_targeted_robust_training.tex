@@ -1,0 +1,21 @@
+\begin{tabular}{rllrrrl}
+\toprule
+alpha & Region & Metric & Nominal Residual PPO & Robust Residual PPO & Change & Change unit \\
+\midrule
+0 & Nominal & Success (%) & 100 & 100 & 0 & percentage points \\
+0 & Nominal & Steady RMSE (m) & 0.01727 & 0.00876 & -49.27 & % \\
+0 & Nominal & Capture time (s) & 3.884 & 4.136 & 6.488 & % \\
+0 & Nominal & Forward overshoot (m) & 0.00532 & 0.001285 & -75.84 & % \\
+0 & Nominal & Command smoothness & 3.603e-05 & 1.777e-05 & -50.67 & % \\
+0.75 & Training boundary & Success (%) & 100 & 100 & 0 & percentage points \\
+0.75 & Training boundary & Steady RMSE (m) & 0.008852 & 0.00335 & -62.16 & % \\
+0.75 & Training boundary & Capture time (s) & 3.692 & 3.606 & -2.316 & % \\
+0.75 & Training boundary & Forward overshoot (m) & 0.02679 & 0.006086 & -77.28 & % \\
+0.75 & Training boundary & Command smoothness & 0.0001329 & 0.0001326 & -0.1969 & % \\
+1 & Held-out severity & Success (%) & 58 & 95 & 37 & percentage points \\
+1 & Held-out severity & Steady RMSE (m) & 0.06502 & 0.03794 & -41.65 & % \\
+1 & Held-out severity & Capture time (s) & 7.753 & 6.092 & -21.42 & % \\
+1 & Held-out severity & Forward overshoot (m) & 0.1872 & 0.1229 & -34.33 & % \\
+1 & Held-out severity & Command smoothness & 0.0003162 & 0.0003243 & 2.58 & % \\
+\bottomrule
+\end{tabular}
